@@ -31,3 +31,4 @@ function handleSubmit(event) {
   event.currentTarget.reset();
   localStorage.setItem(LOCAL_KEY);
 }
+
