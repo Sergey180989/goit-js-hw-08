@@ -19,7 +19,7 @@ function handleInput(event) {
     email: refs.form.elements.email.value,
     message: refs.form.elements.message.value,
   };
-  localStorage.setItem(LOCAL_KEY, JSON.JSON.stringify(data));
+  localStorage.setItem(LOCAL_KEY, JSON.stringify(data));
 }
 
 function handleSubmit(event) {
