@@ -30,5 +30,5 @@ function handleSubmit(event) {
     message: refs.form.elements.message.value,
   };
   event.currentTarget.reset();
-  localStorage.getItem(LOCAL_KEY);
+  localStorage.removeItem(LOCAL_KEY);
 }
