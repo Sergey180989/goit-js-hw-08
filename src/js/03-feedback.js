@@ -22,6 +22,7 @@ function handleInput(event) {
   localStorage.setItem(LOCAL_KEY, JSON.stringify(data));
 }
 
+
 function handleSubmit(event) {
   event.preventDefault();
   const data = {
