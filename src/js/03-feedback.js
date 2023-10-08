@@ -19,15 +19,16 @@ function handleInput(event) {
     email: refs.form.elements.email.value,
     message: refs.form.elements.message.value,
   };
-  localStorage.setItem(LOCAL_KEY, JSON.stringify(data));
+  localStorage.getItem(LOCAL_KEY, JSON.stringify(data));
 }
 
 function handleSubmit(event) {
   event.preventDefault();
+  
   const data = {
     email: refs.form.elements.email.value,
     message: refs.form.elements.message.value,
   };
   event.currentTarget.reset();
-  localStorage.setItem(LOCAL_KEY);
+  localStorage.getItem(LOCAL_KEY);
 }
