@@ -29,6 +29,7 @@ function handleSubmit(event) {
     email: refs.form.elements.email.value,
     message: refs.form.elements.message.value,
   };
+  console.log(data);
   event.currentTarget.reset();
   localStorage.removeItem(LOCAL_KEY);
 }
